@@ -1,2 +1,0 @@
-# training-website
-training website
