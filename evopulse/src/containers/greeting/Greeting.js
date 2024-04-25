@@ -44,7 +44,7 @@ export default function Greeting() {
                   <Button
                     text="About Us"
                     newTab={true}
-                    href={greeting.resumeLink}
+                    // href={greeting.resumeLink}
                   />
                 )}
               </div>

@@ -213,7 +213,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Services",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -366,16 +366,16 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3008635213",
+  email_address: "mugheesrazamalik@gmail.com"
 };
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter",
-  display: true
-};
+// const twitterDetails = {
+//   userName: "twitter",
+//   display: true
+// };
 
 const isHireable = false;
 
@@ -395,6 +395,6 @@ export {
   talkSection,
   // podcastSection,
   contactInfo,
-  twitterDetails,
+  // twitterDetails,
   isHireable
 };
