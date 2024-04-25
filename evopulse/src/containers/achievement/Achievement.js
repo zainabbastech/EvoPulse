@@ -8,6 +8,8 @@ import StyleContext from "../../contexts/StyleContext";
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
   if (!achievementSection.display) {
+    console.log("hi")
+
     return null;
   }
   return (
