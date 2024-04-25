@@ -2,7 +2,58 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.child1 {
+width: 50%;
+}
+
+.child2 {
+width: 40%;
+}
+
+@media (max-width: 1150px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .child1 {
+    width: auto;
+    }
+    
+    .child2 {
+      width: 140%;
+      justify-content: center;
+      display: flex;
+    }
+
+}
+
+.video-info08 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.combo007 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.thumnil001 {
+  width: 150px;
+}
+
+.thum002-details {
+  font-size: 15px;
 }
 
 /* Rectangle Card Layout */
@@ -76,6 +127,7 @@
   display: flex;
   justify-content: space-around;
 }
+
 
 /* Media Query */
 @media (max-width: 1380px) {

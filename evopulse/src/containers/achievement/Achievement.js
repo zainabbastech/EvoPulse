@@ -25,11 +25,10 @@ export default function Achievement() {
               {achievementSection.title}
             </h1>
 
-            <div class="container">
-              <div class="row">
-                <div class="col-md-8">
+            <div className="container">
+                <div className="child1">
                   <div class="video-009p">
-                    <figure>
+                    <figure style={{margin: "0"}}>
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/odDgRngTJaI?si=MV1MX31BB5LabPvC"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -41,11 +40,11 @@ export default function Achievement() {
                 </div>
 
 
-                <div class="col-md-4">
+                <div className="child2">
                   <div class="video-info08">
                     <div class="combo007">
                       <div class="thumnil001">
-                        <a href="#">   <img src={youtube} alt="image"/></a>
+                        <a href="#">   <img src={youtube} alt="image" width={"150px"} /></a>
 
                       </div>
                       <div class="thum002-details">
@@ -57,7 +56,7 @@ export default function Achievement() {
                     
                     <div class="combo007">
                       <div class="thumnil001">
-                        <a href="#"><img src={youtube} alt="image"/></a>
+                        <a href="#"><img src={youtube} alt="image" width={"150px"}/></a>
                       </div>
                       <div class="thum002-details">
                         <a href="https://www.youtube.com/live/aDo5H3CcjYE?si=wRKprAoey2IzIaLm" target="_blank">Unleash leadership</a>
@@ -68,7 +67,7 @@ export default function Achievement() {
                     
                     <div class="combo007">
                       <div class="thumnil001">
-                        <a href="#"><img src={youtube} alt="image"/></a>
+                        <a href="#"><img src={youtube} alt="image" width={"150px"}/></a>
 
 
                       </div>
@@ -81,7 +80,7 @@ export default function Achievement() {
                       
                     <div class="combo007">
                       <div class="thumnil001">
-                        <a href="#">   <img src={youtube} alt="image"/></a>
+                        <a href="#">   <img src={youtube} alt="image" width={"150px"}/></a>
 
 
                       </div>
@@ -93,8 +92,6 @@ export default function Achievement() {
                     <br/>
                   </div>
                 </div>
-                
-              </div>
               </div>
             <p
               className={
